@@ -1,0 +1,20 @@
+---
+brew:
+  enable_update: true
+  enable_upgrade: true
+  add_repositories:
+    - caskroom/cask
+    - homebrew/versions
+  install_packages:
+    - bash
+    - brew-cask
+    - ghq
+    - git
+    - libyaml
+    - openssl
+    - peco
+    - tree
+  install_apps:
+    - atom
+    - github-desktop
+    - google-chrome
