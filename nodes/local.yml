@@ -4,7 +4,7 @@ brew:
   enable_upgrade: true
   add_repositories:
     - caskroom/cask
-    - homebrew/versions
+    - caskroom/versions
   install_packages:
     - bash
     - brew-cask
@@ -18,3 +18,5 @@ brew:
     - atom
     - github-desktop
     - google-chrome
+    # caskroom/versions
+    - firefox-ja
