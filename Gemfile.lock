@@ -12,6 +12,8 @@ GEM
       thor
     itamae-plugin-recipe-homebrew (0.0.3)
       itamae (~> 1.5)
+    itamae-plugin-resource-ghq (0.0.1)
+      itamae
     multi_json (1.11.2)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
@@ -33,7 +35,7 @@ GEM
     rspec-mocks (3.4.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.4.0)
-    rspec-support (3.4.0)
+    rspec-support (3.4.1)
     schash (0.1.2)
     serverspec (2.24.3)
       multi_json
@@ -41,7 +43,7 @@ GEM
       rspec-its
       specinfra (~> 2.43)
     sfl (2.2)
-    specinfra (2.44.2)
+    specinfra (2.44.3)
       net-scp
       net-ssh (~> 2.7)
       net-telnet
@@ -54,6 +56,7 @@ PLATFORMS
 DEPENDENCIES
   itamae
   itamae-plugin-recipe-homebrew
+  itamae-plugin-resource-ghq
   rake
   serverspec
 
