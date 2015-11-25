@@ -3,10 +3,12 @@ brew:
   enable_update: true
   enable_upgrade: true
   add_repositories:
+    - homebrew/completions
     - caskroom/cask
     - caskroom/versions
   install_packages:
     - bash
+    - bash-completion
     - brew-cask
     - ghq
     - git
@@ -14,6 +16,12 @@ brew:
     - openssl
     - peco
     - tree
+    # homebrew/completions
+    - brew-cask-completion
+    - bundler-completion
+    - gem-completion
+    - open-completion
+    - vagrant-completion
   install_apps:
     - atom
     - dropbox
