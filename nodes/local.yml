@@ -16,7 +16,15 @@ brew:
     - tree
   install_apps:
     - atom
+    - dropbox
     - github-desktop
     - google-chrome
+    - google-japanese-ime
+    - java
+    - kobito
+    - skype
+    - vagrant
+    - vagrant-manager
+    - virtualbox
     # caskroom/versions
     - firefox-ja
