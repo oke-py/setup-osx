@@ -10,11 +10,16 @@ brew:
     - bash
     - bash-completion
     - brew-cask
+    - curl
+    - editorconfig
     - ghq
     - git
+    - hub
+    - jq
     - libyaml
     - openssl
     - peco
+    - tig
     - tree
     # homebrew/completions
     - brew-cask-completion
@@ -22,6 +27,8 @@ brew:
     - gem-completion
     - open-completion
     - vagrant-completion
+    - vim
+    - wget
   install_apps:
     - atom
     - dropbox
