@@ -43,3 +43,20 @@ brew:
     - virtualbox
     # caskroom/versions
     - firefox-ja
+
+
+atom:
+  install_packages:
+    - ask-stack
+    - autocomplete-paths
+    - editorconfig
+    - file-icons
+    - highlight-selected
+    - minimap
+    - minimap-autohide
+    - minimap-bookmarks
+    - minimap-git-diff
+    - minimap-highlight-selected
+    - project-manager
+    - regex-railroad-diagram
+    - script
