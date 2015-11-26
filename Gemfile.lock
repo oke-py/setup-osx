@@ -10,6 +10,7 @@ GEM
       schash (~> 0.1.0)
       specinfra (>= 2.37.0, < 3.0.0)
       thor
+    itamae-plugin-recipe-atom (0.0.1)
     itamae-plugin-recipe-homebrew (0.0.3)
       itamae (~> 1.5)
     itamae-plugin-resource-ghq (0.0.1)
@@ -55,6 +56,7 @@ PLATFORMS
 
 DEPENDENCIES
   itamae
+  itamae-plugin-recipe-atom
   itamae-plugin-recipe-homebrew
   itamae-plugin-resource-ghq
   rake
