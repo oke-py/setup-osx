@@ -21,14 +21,14 @@ brew:
     - peco
     - tig
     - tree
+    - vim
+    - wget
     # homebrew/completions
     - brew-cask-completion
     - bundler-completion
     - gem-completion
     - open-completion
     - vagrant-completion
-    - vim
-    - wget
   install_apps:
     - atom
     - dropbox
