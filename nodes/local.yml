@@ -38,6 +38,7 @@ brew:
     - java
     - kobito
     - skype
+    - the-unarchiver
     - vagrant
     - vagrant-manager
     - virtualbox
