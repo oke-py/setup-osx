@@ -6,3 +6,5 @@ script:
   - bundle exec rubocop
   - bundle exec yaml-lint
   - bundle exec rake spec
+addons:
+  ssh_known_hosts: github.com
