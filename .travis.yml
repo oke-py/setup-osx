@@ -1,0 +1,8 @@
+language: objective-c
+install:
+  - bundle install --path vendor/bundle
+  - bundle exec itamae local -y nodes/local.yml
+script:
+  - bundle exec rubocop
+  - bundle exec yaml-lint
+  - bundle exec rake spec
