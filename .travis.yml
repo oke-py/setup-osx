@@ -4,7 +4,7 @@ install:
   - bundle exec itamae local roles/local.rb -y nodes/local.yml
 script:
   - bundle exec rubocop
-  - bundle exec yaml-lint
+  - bundle exec yaml-lint nodes/
   - bundle exec rake spec
 addons:
   ssh_known_hosts: github.com
