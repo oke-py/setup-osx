@@ -1,4 +1,6 @@
 language: objective-c
+# Work around https://github.com/travis-ci/travis-ci/issues/1588
+before_install: echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 install:
   - bundle install --path vendor/bundle
   - bundle exec itamae local roles/local.rb -y nodes/local.yml
