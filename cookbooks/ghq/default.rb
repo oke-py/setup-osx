@@ -11,4 +11,4 @@ execute 'git config ghq.root' do
   not_if 'git config --get ghq.root'
 end
 
-ghq 'git@github.com:oke-py/dotfiles.git'
+ghq 'oke-py/dotfiles'
