@@ -1,14 +1,14 @@
 # coding: utf-8
-require "itamae/plugin/resource/ghq"
+require 'itamae/plugin/resource/ghq'
 
-execute "setenv $GOPATH" do
-  command "export GOPATH=$HOME"
-  only_if "test -z $GOPATH"
+execute 'setenv $GOPATH' do
+  command 'export GOPATH=$HOME'
+  only_if 'test -z $GOPATH'
 end
 
-execute "git config ghq.root" do
+execute 'git config ghq.root' do
   command 'git config ghq.root "~/src"'
-  not_if "git config --get ghq.root"
+  not_if 'git config --get ghq.root'
 end
 
-ghq "git@github.com:oke-py/dotfiles.git"
+ghq 'git@github.com:oke-py/dotfiles.git'

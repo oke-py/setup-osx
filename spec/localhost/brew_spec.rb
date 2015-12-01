@@ -1,10 +1,10 @@
 require 'spec_helper'
 require 'yaml'
 
-nodes_dir_path = File.expand_path(File.dirname(__FILE__) << "/../../nodes")
+nodes_dir_path = File.expand_path(File.dirname(__FILE__) << '/../../nodes')
 node = YAML.load_file("#{nodes_dir_path}/local.yml")
 
-describe command "test $(which brew)" do
+describe command 'test $(which brew)' do
   its(:exit_status) { should eq 0 }
 end
 
