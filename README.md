@@ -1,4 +1,7 @@
 # setup-osx
+
+[![Build Status](https://travis-ci.org/oke-py/setup-osx.svg?branch=master)](https://travis-ci.org/oke-py/setup-osx)
+
 Mac OS X configuration management using Itamae
 
 ## Install dependencies
