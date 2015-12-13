@@ -5,6 +5,7 @@ gem 'serverspec'
 gem 'rake'
 gem 'itamae-plugin-recipe-atom'
 gem 'itamae-plugin-recipe-homebrew'
+gem 'itamae-plugin-recipe-rbenv'
 gem 'itamae-plugin-resource-ghq'
 
 group :development, :test do
