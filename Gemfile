@@ -9,7 +9,7 @@ gem 'itamae-plugin-recipe-rbenv'
 gem 'itamae-plugin-resource-ghq'
 
 group :development, :test do
-  gem 'rubocop'
+  gem 'rubocop', '>= 0.49.0'
   gem 'yaml-lint'
   gem 'travis'
 end
